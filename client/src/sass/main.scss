@@ -7,15 +7,13 @@
 }
 
 * {
+  background-color: #fff;
   margin: 0;
   padding: 0;
   box-sizing: border-box;
 }
 
 body {
-  background-color: #000;
-  background-image: url('../img/hollowed-boxes.svg');
-  // https://www.svgbackgrounds.com/
   min-height: 100vh;
   font-family: 'Signika Negative', sans-serif;
 }
@@ -23,6 +21,12 @@ body {
 a {
   color: var(--primary-color);
   text-decoration: none;
+}
+
+.bg {
+  background-color: #000;
+  background-image: url('../img/hollowed-boxes.svg');
+  // https://www.svgbackgrounds.com/
 }
 
 .green-button {
