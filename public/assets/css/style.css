@@ -81,14 +81,18 @@ a {
   color: var(--primary-color);
   text-decoration: none;
 }
+
 .green-button {
   text-decoration: none;
   color: #fff;
-  background-color: #7ed102;
+  background: linear-gradient(to bottom, #6eb800, #7ed102);
   padding: 15px;
   font-weight: bolder;
   font-size: 20px;
   border-radius: 15px;
+}
+.green-button:hover {
+  background: linear-gradient(to bottom, #71bd00, #64a700);
 }
 
 /*# sourceMappingURL=style.css.map */
