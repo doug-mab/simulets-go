@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Signika+Negative:wght@300;400;500;600;700&display=swap');
 @import './land.scss';
+@import './login.scss';
 
 :root {
   --primary-color: #31649a;
@@ -8,6 +9,7 @@
 * {
   margin: 0;
   padding: 0;
+  box-sizing: border-box;
 }
 
 body {
@@ -31,6 +33,7 @@ a {
   font-weight: bolder;
   font-size: 20px;
   border-radius: 15px;
+  border: none;
   &:hover {
   background: linear-gradient(to bottom, #71bd00, #64a700);
   }

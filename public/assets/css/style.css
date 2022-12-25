@@ -61,6 +61,63 @@
   top: 50px;
 }
 
+.login-container {
+  display: inline-block;
+  background-color: #fff;
+  min-height: 100vh;
+  min-width: 30%;
+  padding: 10px;
+}
+.login-container .center-container {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  height: 100%;
+}
+.login-container .flex-container {
+  margin-top: 8%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.login-container .flex-container a {
+  width: 40%;
+  margin-bottom: 40px;
+}
+.login-container .flex-container a img {
+  width: 100%;
+}
+.login-container .flex-container h1 {
+  color: var(--primary-color);
+  margin-bottom: 30px;
+}
+.login-container .flex-container form {
+  display: flex;
+  flex-direction: column;
+}
+.login-container .flex-container form input {
+  width: 250px;
+  padding: 10px;
+  border-radius: 10px;
+  border: #aaa 1px solid;
+  margin: 5px 0 15px;
+}
+.login-container .flex-container form div {
+  margin-top: 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+.login-container .flex-container form div .green-button {
+  padding: 8px;
+  font-size: 15px;
+}
+.login-container .flex-container form div a {
+  width: 100%;
+  text-align: right;
+  padding: 8px;
+}
+
 :root {
   --primary-color: #31649a;
 }
@@ -68,6 +125,7 @@
 * {
   margin: 0;
   padding: 0;
+  box-sizing: border-box;
 }
 
 body {
@@ -90,6 +148,7 @@ a {
   font-weight: bolder;
   font-size: 20px;
   border-radius: 15px;
+  border: none;
 }
 .green-button:hover {
   background: linear-gradient(to bottom, #71bd00, #64a700);

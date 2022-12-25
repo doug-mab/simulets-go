@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="./assets/css/style.css">
+  <link rel="shortcut icon" href="./assets/img/logo-icon.png" type="image/x-icon">
+  <title>Simulets go! - Entrar</title>
+</head>
+<body>
+  <section class="login-container">
+    <div class="center-container">
+    <div class="flex-container">
+    <a href="/"><img src="./assets/img/logo.png" alt="Simulets go!"></a>
+    <h1>
+      Entre na sua conta.
+    </h1>
+    <form action="/api/login" method="post">
+      <label for="email">
+        <p>Email:</p>
+        <input type="email" name="email" id="email">
+      </label>
+      <label for="password">
+        <p>Senha:</p>
+        <input type="password" name="password" id="password">
+      </label>
+      <div>
+        <button class="green-button">Entrar</button>
+        <a href="#">Esqueceu sua senha?</a>
+      </div>
+    </form>
+    <p>Novo no Simulets go? <a href="/register">Crie sua conta</a>.</p>
+  </div>
+  </div>
+  </section>
+</body>
+</html>
