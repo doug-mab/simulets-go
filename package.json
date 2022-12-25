@@ -2,12 +2,12 @@
   "name": "simulets-go",
   "version": "0.1.0",
   "description": "",
-  "main": "api/server.js",
+  "main": "server/server.js",
   "scripts": {
-    "start": "NODE_ENV=production node api/server.js",
-    "start:watch": "nodemon api/server.js",
+    "start": "NODE_ENV=production node server/server.js",
+    "start:watch": "nodemon server/server.js",
     "webpack:watch": "webpack -w",
-    "sass:watch": "sass --watch ./public/src/sass/main.scss ./public/assets/css/style.css"
+    "sass:watch": "sass --watch ./client/src/sass/main.scss ./client/static/assets/css/style.css"
   },
   "keywords": [],
   "author": "Douglas Brum",

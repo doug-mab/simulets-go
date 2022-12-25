@@ -1,6 +1,5 @@
 const { resolve } = require('path');
 
 module.exports = {
-  publicPath: resolve('.', 'public')
+  staticPath: resolve('.', 'client', 'static')
 }
-

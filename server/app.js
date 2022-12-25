@@ -2,7 +2,7 @@ const express = require('express');
 const bodyParser = require('body-parser');
 const router = require('./routes');
 const path = require('path');
-const { publicPath } = require('./config/paths');
+const { staticPath } = require('./config/paths');
 require('./models');
 
 class App {
@@ -14,7 +14,7 @@ class App {
 
   middleware() {
     this.app.use(bodyParser.json());
-    this.app.use(express.static(path.resolve(publicPath)));
+    this.app.use(express.static(path.resolve(staticPath)));
   }
 
   routes() {

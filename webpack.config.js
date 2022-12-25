@@ -3,12 +3,13 @@ const path = require('path');
 const stylesHandler = 'style-loader';
 
 const config = {
+  mode: 'development',
   entry: {
-    'js/login.min': './public/src/js/login/index.js',
-    'js/app.min': './public/src/js/app/index.js'
+    'js/login.min': './client/src/js/login/index.js',
+    'js/app.min': './client/src/js/app/index.js',
   },
   output: {
-    path: path.resolve(__dirname, 'public', 'assets')
+    path: path.resolve(__dirname, 'client', 'static', 'assets'),
   },
   module: {
     rules: [
