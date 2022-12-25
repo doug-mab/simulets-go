@@ -1,3 +1,38 @@
-body {
-  background-color: blue;
+@import url('https://fonts.googleapis.com/css2?family=Signika+Negative:wght@300;400;500;600;700&display=swap');
+@import './land.scss';
+
+:root {
+  --primary-color: #31649a;
 }
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: #000;
+  background-image: url('../img/hollowed-boxes.svg');
+  // https://www.svgbackgrounds.com/
+  min-height: 100vh;
+  font-family: 'Signika Negative', sans-serif;
+}
+
+a {
+  color: var(--primary-color);
+  text-decoration: none;
+  &:hover {
+
+  }
+}
+
+.green-button {
+  text-decoration: none;
+  color: #fff;
+  background-color: #7ed102;
+  padding: 15px;
+  font-weight: bolder;
+  font-size: 20px;
+  border-radius: 15px;
+}
+
