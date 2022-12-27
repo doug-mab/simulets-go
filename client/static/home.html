@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="./assets/css/style.css">
+  <link rel="shortcut icon" href="./assets/img/logo-icon.png" type="image/x-icon">
+  <title>Simulets go! - Inicial</title>
+</head>
+<body>
+  <div class="container">
+    <aside>
+      <div class="flex-container">
+          <button class="round-button" id="settings-button" title="Configurações"></button>
+        <div class="functions">
+          <button class="round-button" id="add-grade-button" title="Registrar nova nota"></button>
+          <button class="round-button" id="create-folder-button" title="Criar nova pasta"></button>
+          <button class="round-button" id="progress-button" title="Progresso"></button>
+        </div>
+        <button class="round-button" id="logout-button" title="Sair"></button>
+      </div>
+    </aside>
+<!-- Outside the controls -->
+    <div class="menu-container">
+      <nav class="controls-nav">
+          <img src="./assets/img/logo-textonly.png" alt="" class="logo">
+        <div class="search">
+          <img src="./assets/img/search.svg" alt="" class="icon">
+          <input type="search" placeholder="Pesquisar">
+        </div>
+        <div class="extra">
+          <button class="round-button" id="question-button" title="Dúvidas"></button>
+          <div class="profile-pic" style="background-image: url('./assets/img/default.jpeg');"></div>
+        </div>
+      </nav>
+      <div id="display">
+        <div class="directory">
+          <img src="./assets/img/folder-black.svg" alt="">
+          <h1>Inicial</h1>
+        </div>
+        <div class="display-flex">
+          <div class="exam-container">
+            <div class="exam-name" style="background-color: orange;">
+              <img src="./assets/img/folder.svg" alt="">
+              <h2>ENEM</h2>
+            </div>
+            <div class="exam-info">
+              <div>
+                <p><b>Provas:</b> 6</p>
+              </div>
+              <div>
+                <img src="./assets/img/delete.svg" alt="Deletar" title="Deletar">
+                <img src="./assets/img/expand.svg" alt="Expandir" title="Expandir">
+              </div>
+            </div>
+          </div>
+          <div class="exam-container">
+            <div class="exam-name">
+              <img src="./assets/img/exam.svg" alt="">
+              <h2>UERJ - Simulado 2018</h2>
+            </div>
+            <div class="exam-info">
+              <div>
+                <p><b>Nota:</b> 42/60</p>
+                <p><b>Criado em:</b> 27/12/22</p>
+              </div>
+              <div>
+                <img src="./assets/img/delete.svg" alt="Deletar" title="Deletar">
+                <img src="./assets/img/show.svg" alt="Mostrar" title="Mostrar">
+              </div>
+            </div>
+          </div>
+          <!-- ends here -->
+        </div>
+      </div>
+    </div>
+  </div>
+</body>
+</html>

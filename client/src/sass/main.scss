@@ -1,13 +1,13 @@
 @import url('https://fonts.googleapis.com/css2?family=Signika+Negative:wght@300;400;500;600;700&display=swap');
 @import './land.scss';
 @import './login.scss';
+@import './home.scss';
 
 :root {
   --primary-color: #31649a;
 }
 
 * {
-  background-color: #fff;
   margin: 0;
   padding: 0;
   box-sizing: border-box;
@@ -16,6 +16,7 @@
 body {
   min-height: 100vh;
   font-family: 'Signika Negative', sans-serif;
+  background-color: #fff;
 }
 
 a {
@@ -39,6 +40,41 @@ a {
   border-radius: 15px;
   border: none;
   &:hover {
-  background: linear-gradient(to bottom, #71bd00, #64a700);
+    background: linear-gradient(to bottom, #71bd00, #64a700);
   }
+}
+
+.round-button {
+  transition: 0.15s;
+  width: 50px;
+  height: 50px;
+  border: none;
+  border-radius: 50px;
+  border: 2px solid var(--primary-color);
+  background-color: #fff;
+  background-position: center;
+  background-size: 30px;
+  background-repeat: no-repeat;
+  cursor: pointer;
+  &:hover {
+    background-color: var(--primary-color);
+  }
+}
+
+.icon {
+  width: 30px;
+}
+
+.logo {
+  height: 35px;
+}
+
+.profile-pic {
+  width: 50px;
+  height: 50px;
+  border-radius: 100%;
+  border: 2px solid var(--primary-color);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 50px;
 }
