@@ -5,7 +5,7 @@ const stylesHandler = 'style-loader';
 const config = {
   mode: 'development',
   entry: {
-    'js/login.min': './client/src/js/login/index.js',
+    'js/auth.min': './client/src/js/auth/index.js',
     'js/app.min': './client/src/js/app/index.js',
   },
   output: {
